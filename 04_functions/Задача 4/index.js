@@ -1,1 +1,7 @@
-document.write("Щас начнётся люьый пиздец!!!");
+let count = 3
+
+const countPlusOne = () => console.log(++count)
+
+countPlusOne()
+
+countPlusOne()
