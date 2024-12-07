@@ -1,6 +1,3 @@
-function addToCart(productName) {
-    const cartId = document.querySelector("#cart")
-    let productElement = document.createElement("li")
-    productElement.textContent = productName
-    cartId.append(productElement)
-}
+const totalSum = (priceItem, amountItem, discountItem) => priceItem * amountItem * (100 - discountItem) / 100
+
+console.log(totalSum(25000, 3, 20))
