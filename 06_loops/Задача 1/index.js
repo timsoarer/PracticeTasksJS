@@ -7,10 +7,10 @@ for (product of new_products) {
     products.push(product);
 }
 
-const productListEl = document.querySelector(".products");
+const productListEl = document.querySelector('.products');
 
 for (product of products) {
-    const productEl = document.createElement("li");
+    let productEl = document.createElement('li');
     productEl.textContent = product;
     productListEl.append(productEl);
 }
