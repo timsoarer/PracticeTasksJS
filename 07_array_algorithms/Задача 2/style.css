@@ -1,3 +1,30 @@
-h1 {
-    color: forestgreen;
+body {
+    font-family: sans-serif;
+}
+
+button {
+    color: white;
+    padding: 10px 20px;
+    border-color: #0000;
+    border-radius: 5px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+button:hover {
+    filter: brightness(120%);
+}
+
+button:active {
+    filter: brightness(90%);
+}
+
+.add-height-button {
+    background-color: forestgreen;
+}
+
+.filter-button {
+    background-color: orange;
 }
