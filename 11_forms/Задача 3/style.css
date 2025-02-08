@@ -1,0 +1,35 @@
+#card {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 14pt;
+    text-transform: uppercase;
+    
+
+    border-radius: 20px;
+    display: inline-block;
+    width: 323px;
+    padding-top: 170px;
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.red {
+    background-color: darkred;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: #33B;
+}
+
+.focused {
+    background-color: #EEF;
+}
