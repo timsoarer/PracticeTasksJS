@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-bg-blur {
+    backdrop-filter: brightness(0.9) blur(2px);
+    top: 0px;
+    left: 0px;
+    padding: 50%;
+    position: fixed;
+}
+   
+p {
+    width: 50%;
+}
+
+.card {
+    z-index: 5;
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-image {
+    width: 150px;
+    padding-right: 10px;
+}
+
+.card p {
+    width: 100%;
+    font-weight: 700;
+    font-size: 15pt;
+}
+
+.accept-button {
+    border: none;
+    background-color: #699df8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 13pt;
+}
+
+.accept-button:hover {
+    background-color: #7faefe;
+}
+
+.accept-button:active {
+    background-color: #5a8bde;
+}
